@@ -12,6 +12,12 @@ public class CalculatorTest {
 		
 		Calc calc4 = new CompleteCalc();
 		System.out.println(calc4.square(3)); // 9 
+		
+		calc1.description(); // 완벽한 계산기입니다. : 메서드 오버라이딩에 의해 인스턴스 메서드 출력
+		
+		int[] arr = {1, 2, 3, 4, 5};
+		int sum = Calc.total(arr);
+		System.out.println(sum); // 15
 	}
 	
 }
